@@ -1,0 +1,66 @@
+[
+    {
+        "monster_id" : 1,
+        "hp" : 300,
+        "damage": 50,
+        "name": "Popo",
+        "item_drops" : [
+            {
+                "item_id": 1,
+                "type": "consume",
+                "drop_rate" : 25
+            }
+        ],
+        "coin_drops" : {
+            "min" : 1,
+            "max" : 10,
+            "drop_rate" : 80
+        }
+    },
+    {
+        "monster_id" : 2,
+        "hp" : 450,
+        "damage": 80,
+        "name": "Pupu",
+        "item_drops" : [
+            {
+                "item_id": 1,
+                "type": "weapon",
+                "drop_rate" : 10
+            },
+            {
+                "item_id": 1,
+                "type": "consume",
+                "drop_rate" : 25
+            }
+        ],
+        "coin_drops" : {
+            "min" : 2,
+            "max" : 15,
+            "drop_rate" : 80
+        }
+    },
+    {
+        "monster_id" : 3,
+        "hp" : 1550,
+        "damage": 80,
+        "name": "Mr. Boss",
+        "item_drops" : [
+            {
+                "item_id": 1,
+                "type": "weapon",
+                "drop_rate" : 25
+            },
+            {
+                "item_id": 1,
+                "type": "consume",
+                "drop_rate" : 60
+            }
+        ],
+        "coin_drops" : {
+            "min" : 10,
+            "max" : 100,
+            "drop_rate" : 100
+        }
+    }
+]
